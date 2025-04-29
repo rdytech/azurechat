@@ -611,7 +611,7 @@
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appservice_name'))]",
                 "httpsOnly": true,
                 "siteConfig": {
-                  "linuxFxVersion": "node|18-lts",
+                  "linuxFxVersion": "node|20-lts",
                   "alwaysOn": true,
                   "appCommandLine": "next start",
                   "ftpsState": "Disabled",
